@@ -1,0 +1,87 @@
+# ==============================
+# Environment variables & secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+secrets/
+credentials.json
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# FastAPI / local runtime
+# ==============================
+*.log
+logs/
+.uvicorn/
+instance/
+
+# ==============================
+# SQLite / local databases
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ==============================
+# Node.js / Vite / React
+# ==============================
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+
+# ==============================
+# Build and test artifacts
+# ==============================
+coverage/
+playwright-report/
+test-results/
+.nyc_output/
+
+# ==============================
+# IDEs and editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# OS temporary files
+# ==============================
+*.tmp
+*.temp
+*.bak
